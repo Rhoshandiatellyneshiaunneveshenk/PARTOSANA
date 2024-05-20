@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partosa Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" bgcolor="pink">
+        <tr>
+           
+            <td><img src="C:\Users\alexa\Downloads\1bd944ebab28f68a7e5529c849f8139c.jpg" alt="coquettegigachad"></td>
+        </tr>
+    </table>
+
+    <h1>Please fill out this form to order ice</h1>
+
+    <form action="fp2.html" method="post">
+       
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+       
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+
+        
+        <p style="font-family: cursive;">Check the boxes of which ice you would like to purchase</p>
+        <label for="ice">5 peso ice</label>
+        <input type="checkbox" id="ice" name="ice" checked>
+        <label for="ice1">10 peso ice</label>
+        <input type="checkbox" id="ice1" name="ice1" checked>
+
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+     
+        <input type="submit" value="Next">
+    </form>
+    <a href="index.html">back to main page</a>
+</body>
+</html>
